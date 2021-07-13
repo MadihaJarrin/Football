@@ -47,18 +47,23 @@ body{
 /*------------------------------------
     All players section styles
  --------------------------------------- */
-.all-players{
-    justify-content: center;
-    align-items: center;
+.player{
+    margin: 5px;
 }
 .players{
     margin-top: 70px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+     text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+   
     
 }
 .player-info img{
-    width: 300px;
+    width:90%;
+    margin: 15px;
+    justify-content: space-between;
 }
 .player-info{
     margin-left: 20px;
@@ -69,5 +74,18 @@ body{
 }
 .details{
     text-align:justify;
+    margin: 20px;
+    padding-bottom: 20px;
 
 }
+/*-------------------------
+    Footer Section 
+ --------------------------- */
+
+ footer{
+     text-align: center;
+     margin-top: 150px;
+ }
+ footer img{
+     width: 450px;
+ }
