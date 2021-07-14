@@ -52,7 +52,7 @@ body{
     margin: 5px;
 }
 .players{
-    margin-top: 70px;
+    margin-top: 80px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
