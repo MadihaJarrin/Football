@@ -7,6 +7,7 @@ body{
     margin: 0;
     background-color: white;
     overflow-x:hidden;
+
 }
 
 /* -----------------------
@@ -26,11 +27,13 @@ body{
     color: #FFFFFF;
     margin-top: 150px;
     font-size: 35px;
-    font-weight: 900;
+    
     text-align:justify;
-   
     margin-left: 200px;  
     line-height: 80%;  
+}
+.top-title h1{
+    font-weight: 800;
 }
 .top-image img{
     width:556.01px;
@@ -159,3 +162,20 @@ button {
  footer img{
      width: 450px;
  }
+
+
+
+ /* -------------
+ Media Queries
+  -----------------*/
+  @media only screen and(max-width:688px) {
+      .container{
+          width: 100%;
+      }
+      .players{
+          grid-template-rows: repeat(1, 1fr);
+          grid-template-columns: repeat(1,1fr);
+          
+      }
+      
+  }
