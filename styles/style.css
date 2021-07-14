@@ -24,10 +24,13 @@ body{
 }
 .top-title {
     color: #FFFFFF;
-    margin-top: 50px;
-    font-size: 30px;
-    text-align:justify; 
-    margin-left: 200px;    
+    margin-top: 150px;
+    font-size: 35px;
+    font-weight: 900;
+    text-align:justify;
+   
+    margin-left: 200px;  
+    line-height: 80%;  
 }
 .top-image img{
     width:556.01px;
